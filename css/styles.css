@@ -27,9 +27,9 @@ h4 {
 }
 
 hr {
-  border: dotted #AD98C9 6px;
+  border: dotted #AD98C9 4px;
   border-bottom: none;
-  width: 90%;
+  width: 5%;
   margin: 100px auto;
 }
 
@@ -38,6 +38,10 @@ a {
   color: #AD98C9;
   font-size: 80%;
   text-decoration: none;
+}
+
+a:hover {
+  color: #EFFFFF;
 }
 
 p {
@@ -76,14 +80,13 @@ p {
 }
 
 .skill-row {
-  margin: 100px auto 100px auto;
+  margin: 100px auto;
   width: 50%;
   text-align: left;
   line-height: 2;
 }
 
 .skill-img {
-  margin: 100px auto;
   position: relative;
 }
 
@@ -97,7 +100,11 @@ p {
 .contact-me-img {
   position: relative;
   max-height: 300px;
+}
+
+.contact-me-text {
   margin: 100px auto;
+
 }
 
 .btn {
@@ -137,4 +144,9 @@ p {
   -moz-border-radius: 80px;
   border-radius: 80px;
   text-decoration: none;
+}
+
+.copyright-text {
+  color: white;
+  font-size: 0.75rem;
 }
