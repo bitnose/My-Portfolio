@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: white;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  margin-top: 100px;
+  color: black;
+  font-size: 200%;
+}
+
+h3 {
+  margin-top: 0;
+  color: black;
+  text-align: left;
+}
+
+h4 {
+  margin-top: 20px;
+  color: white;
+}
+
+hr {
+  border: dotted #AD98C9 6px;
+  border-bottom: none;
+  width: 90%;
+  margin: 100px auto;
+}
+
+a {
+  padding: 20px;
+  color: #AD98C9;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+/* CLASS CONTAINERS */
+.top-container {
+  background: rgb(6, 0, 95);
+  background: linear-gradient(180deg, rgba(6, 0, 95, 1) 0%, rgba(152, 107, 214, 1) 100%, rgba(255, 255, 255, 1) 100%);
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: rgba(152, 107, 214);
+}
+
+.telescope {
+  position: relative;
+  max-height: 550px;
+  left: 500px;
+}
+
+.circle {
+  position: relative;
+  right: 550px;
+  max-height: 200px;
+}
+
+.skills {
+  position: relative;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  margin: 100px auto;
+  position: relative;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-me-img {
+  position: relative;
+  max-height: 300px;
+  margin: 100px auto;
+}
+
+.btn {
+  background: #06005F;
+  background-image: -webkit-linear-gradient(top, #06005F, #986BD6);
+  background-image: -moz-linear-gradient(top, #06005F, #986BD6);
+  background-image: -ms-linear-gradient(top, #06005F, #986BD6);
+  background-image: -o-linear-gradient(top, #06005F, #986BD6);
+  background-image: -webkit-gradient(to bottom, #06005F, #986BD6);
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 30px;
+  -webkit-box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.63);
+  box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, 0.63);
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  width: 20%;
+  margin: 100px auto;
+}
+
+.btn:hover {
+  border: solid #FDFFCA 0;
+  background: #0078FF;
+  background-image: -webkit-linear-gradient(top, #0078FF, #986BD6);
+  background-image: -moz-linear-gradient(top, #0078FF, #986BD6);
+  background-image: -ms-linear-gradient(top, #0078FF, #986BD6);
+  background-image: -o-linear-gradient(top, #0078FF, #986BD6);
+  background-image: -webkit-gradient(to bottom, #0078FF, #986BD6);
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  text-decoration: none;
+}
